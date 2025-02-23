@@ -4,7 +4,7 @@ import axios from 'axios';
 import { Profiler } from 'react';
 import Footer from '../components/Footer';
 import Logout from '../components/Logout'
-import {useAuth}  from "../Context/AuthContext";
+import {useAuth}  from "../context/AuthContext"
 import { useNavigate } from 'react-router-dom';
 import bcrypt from 'bcryptjs'
 

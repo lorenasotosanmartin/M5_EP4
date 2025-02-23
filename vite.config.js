@@ -5,6 +5,10 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   server: {
+    headers: {
+      "Content-Security-Policy": "frame-ancestors 'none';", 
+      "X-Frame-Options": "DENY", 
+    },
     port: 3000,
   }
 })
