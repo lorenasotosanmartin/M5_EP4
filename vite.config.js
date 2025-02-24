@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     headers: {
       "Content-Security-Policy": "frame-ancestors 'none';", 
-      "X-Frame-Options": "DENY", 
+      "X-Frame-Options": "DENY",
     },
     port: 3000,
   }
